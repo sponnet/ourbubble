@@ -30,7 +30,7 @@
         "redux-localstorage-simple": "^2.1.6",
         "source-map": "^0.7.3",
         "uuid": "^8.3.0",
-        "websocket": "^1.0.30",
+        "websocket": "^1.0.30"
     },
     "scripts": {
         "start": "REACT_APP_STAGE=development react-scripts start",

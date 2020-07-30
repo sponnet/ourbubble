@@ -10,7 +10,7 @@ const Comp = ({ bubble, close, addClose, changeClose, deleteClose, extended, cha
             return (
                 <div key={`close-${index}`} className="field has-addons">
                     <div className="control is-expanded">
-                        <input className="input is-danger" value={closeItem.name||""} onChange={(e) => { onChange(index, e.target.value) }} className="input is-primary" type="text" placeholder="Naam Achternaam" />
+                        <input className={`input ${extraClass}`} value={closeItem.name||""} onChange={(e) => { onChange(index, e.target.value) }} type="text" placeholder="Naam Achternaam" />
                     </div>
                     {index >= normalmax && (
                         <div className="control">

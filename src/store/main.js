@@ -1,7 +1,4 @@
 
-import { PromiseBlackBox, ReduxBlackBox } from '@oqton/redux-black-box';
-import axios from 'axios';
-import config from '../config';
 import { ethers } from "ethers";
 import { v4 as uuidv4 } from 'uuid';
 

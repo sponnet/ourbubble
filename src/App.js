@@ -14,9 +14,6 @@ function App({ bootstrap, connect, disconnect, onMessage }) {
 
     }, [bootstrap]);
 
-    Object.values(pages).map(({ parentPath, rootPath }) => {
-        console.log("pages", parentPath, rootPath);
-    });
 
     return (
         <div className="App">
